@@ -5,7 +5,7 @@ import FreeSimpleGUI as sg
 now = time.strftime("%D %T")
 print("it is", now)
 
-# Using FreeSimpleGUI package to develop GUI
+# Using FreeSimpleGUI package to develop GUI for TODO list
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo")
 add_button = sg.Button("Add")
